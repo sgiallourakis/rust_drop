@@ -1,0 +1,15 @@
+[package]
+name = "rustdrop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# GUI framework
+eframe = "0.27"
+
+# File picker (native cross-platform)
+rfd = "0.12"
+
+# Networking (standard for now — can switch to tokio later)
+# If you want to prepare for async, uncomment tokio:
+# tokio = { version = "1", features = ["full"] }
